@@ -32,4 +32,4 @@ VOLUME /var/local/pdf
 
 WORKDIR /var/local/pdf
 
-#ENTRYPOINT ["mutool"]
+ENTRYPOINT ["mutool"]
