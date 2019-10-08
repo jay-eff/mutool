@@ -23,8 +23,8 @@ RUN apk add --no-cache \
 ENV LANG=de_DE.ISO-8859
 
 # Provide Volumes
-RUN mkdir /var/local/pdf/in \
- && mkdir /var/local/pdf/out
+RUN mkdir /pdfin \
+ && mkdir /pdfout
 
 VOLUME /pdfin
 VOLUME /pdfout
