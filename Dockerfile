@@ -23,11 +23,12 @@ RUN apk add --no-cache \
 ENV LANG=de_DE.ISO-8859
 
 # Provide Volumes
-RUN mkdir /var/local/pdf \
-        && mkdir /var/local/pdf/out
+RUN mkdir /var/local/pdf/in \
+ && mkdir /var/local/pdf/out
 
-VOLUME /var/local/pdf
+VOLUME /var/local/pdf/in
+VOLUME /var/local/pdf/out
 
-WORKDIR /var/local/pdf
+WORKDIR /var/local/pdf/in
 
 CMD ["mutool"]
