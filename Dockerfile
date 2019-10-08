@@ -26,9 +26,9 @@ ENV LANG=de_DE.ISO-8859
 RUN mkdir /var/local/pdf/in \
  && mkdir /var/local/pdf/out
 
-VOLUME /var/local/pdf/in
-VOLUME /var/local/pdf/out
+VOLUME /pdfin
+VOLUME /pdfout
 
-WORKDIR /var/local/pdf/in
+WORKDIR /pdfin
 
 CMD ["mutool"]
