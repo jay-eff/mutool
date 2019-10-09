@@ -22,10 +22,6 @@ RUN apk add --no-cache \
 # Set Environment variables
 ENV LANG=de_DE.ISO-8859
 
-# Provide Volumes
-RUN mkdir /pdfin \
- && mkdir /pdfout
-
 VOLUME /pdfin
 VOLUME /pdfout
 

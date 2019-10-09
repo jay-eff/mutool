@@ -1,0 +1,231 @@
+Checkliste 
+barrierefreie PDF
+
+Vorgehensweise
+Zur Erstellung eines barrierefreien PDF-Dokuments gibt es zwei Vorgehensweisen:
+
+1. Ein Dokument wird in einer Anwendung erstellt und mit entsprechenden Einstellungen in PDF 
+umgewandelt. Anschließend wird das PDF-Dokument in Adobe Acrobat optimiert.
+
+2. Ein bestehendes PDF-Dokument wird unmittelbar in Adobe Acrobat bearbeitet und optimiert.
+
+Für barrierefreie PDF kommt es entscheidend darauf an, dass »tagged PDF« (strukturiertes PDF) 
+berücksichtigt wird.
+
+Einschränkungen der Checkliste
+
+1. Es wird davon ausgegangen, dass das PDF mit dem Adobe-Makro PDFMaker1 oder in einer 
+anderen Anwendung2 erstellt wird, die »tagged PDF« erzeugen kann.
+
+2. Text, Formulare und diverse andere Objekte sowie interaktive Oberflächen müssen einzeln und 
+in Abhängigkeit der Erstellungssoftware behandelt werden. Die Checkliste beschränkt sich auf 
+solche Dokumente, die typischerweise in Microsoft Word 2000 erstellt werden.
+
+3. Die Arbeitsweise in verschiedenen Versionen von Adobe Acrobat variiert. Die Checkliste bezieht 
+sich auf Adobe Acrobat 7 Professional.
+
+4. Anleitungen und Lösungsstrategien für komplexere Probleme müssen den Literaturhinweisen am 
+Ende dieses Dokuments entnommen werden.
+
+Vorbereitung eines Dokuments in Microsoft Word 2000
+Formatvorlagen
+
+Konsequente 
+Nutzung der 
+Formatvorlagen
+
+Besonders zu beachten ist:
+
+•
+ Überschriften über die Formatvorlage zuweisen,
+
+•
+ Funktionen für Listen, Fußnoten und Tabellen einsetzen,
+
+•
+ Alternativtexte für Bilder anlegen und
+
+•
+ Links aktivieren.
+
+Layout
+Das Layout ist mit Spaltenfunktion oder Textfeldern, nicht mit Tabellen oder 
+Tabulatoren zu gestalten.
+
+Textfluss
+Kopf- und Fußzeilen sollten keine wesentlichen Informationen enthalten.
+
+1  PDFMaker gehört zum Leistungsumfang von Acrobat Professional ab Version 6 und wird bei 
+der Installation in diversen Anwendungen auf Windows- und MacOS-Systemen  automatisch 
+integriert. Auf MacOS-Systemen wird allerdings bis zur Version 7 kein »tagged PDF« erzeugt.
+
+2 »Tagged PDF« kann in Adobe Acrobat ab der Version 5 sowie anderen Adobe-Produkten erzeugt 
+werden. Darüber hinaus ist OpenOffice 2 in der Lage, »tagged PDF« zu erzeugen.
+
+Checkliste barrierefreie PDF - http://www.einfach-fuer-alle.de/download/pdf-checkliste.pdf
+Einfach für Alle ist eine Initiative der Aktion Mensch
+1
+
+01
+
+
+Konvertierung
+
+Voreinstellungen
+Im Menü »Adobe PDF > Konvertierungseinstellungen ändern« sind 
+folgende Voreinstellungen zu prüfen:
+
+•
+im Register »Einstellungen« sicherstellen, dass Lesezeichen, Verknüp-
+fungen und Tags zum PDF hinzugefügt werden,
+
+•
+im Register »Sicherheit« ggfs. den Zugriff für Sprachausgaben 
+sicherstellen, 
+
+•
+im Register »Word« die Übernahme von Querverweisen/ Inhalts-
+verzeichnissen sowie Fuß-/Endnoten ermöglichen und 
+
+•
+im Register »Lesezeichen« die Übernahme der Überschriften, nicht 
+jedoch der Word-Stile (Regelfall) prüfen.
+
+PDF-Export
+Zur Erzeugung von »tagged PDF« muss das PDF über das Menü »Adobe 
+PDF« erzeugt werden, nicht über das Druckmenü.
+
+Vorbereitung eines Dokuments in Adobe Acrobat 7
+Text und Tags
+
+OCR
+Die Umwandlung von gescannten Dokumenten zu Text ist unter »Dokument 
+> Text mit OCR erkennen > Starten« möglich. Unter »Bearbeiten« sollte der 
+Ausgabestil auf »Formatierter Text und Grafiken« eingestellt sein.
+
+Problemstellen
+Die OCR-Problemstellen müssen unter »Dokument > Text mit OCR erken-
+nen« gesucht und korrigiert werden.
+
+Tagged PDF
+Ein Tagbaum muss dem PDF-Dokument beigefügt sein unter »Erweitert > 
+Ausgabehilfe > Tags zu Dokument hinzufügen«. Dies gilt für alle Dokumente, 
+die keine Tags besitzen.
+
+Optimierung eines Dokuments in Adobe Acrobat 7
+Darstellung und Lesereihenfolge
+
+Umfließen
+Bei Vergrößerung (Menü »Ansicht > Umfließen«) muss die Reihenfolge der 
+Inhalte schlüssig sein. Korrekturen können mit dem TouchUp-Leserichtungs-
+werkzeug (Menü »Erweitert > Ausgabehilfe«) oder durch Entfernen und 
+Wiederhinzufügen von Tags vorgenommen werden.
+
+Kontrastmodus
+Alle Inhalte müssen im Kontrastmodus (Menü »Bearbeiten > Grundein-
+stellungen > Ausgabehilfe« und dort in verschiedenen Vordergrund- und 
+Hintergrundfarben) gelesen werden können.
+
+Lesereihenfolge
+Die Lesereihenfolge für Screenreader muss unter »Anzeige > Navigations-
+registerkarten > Reihenfolge«) geprüft und ggfs. korrigiert werden. 
+
+Außertextliche Ele-
+mente
+
+Unter »Erweitert > Ausgabehilfe > Vollständige Prüfung« muss geprüft 
+werden, ob keine wesentlichen Inhalte außertextlich sind.
+
+Inhalte und Gliederung
+
+Alternativtexte für 
+Bilder
+
+Unter »Erweitert > Ausgabehilfe > Vollständige Prüfung« muss geprüft 
+werden, ob alle Bilder (geeignete) Alternativtexte besitzen.
+
+Datentabellen
+Die Prüfung und Optimierung von Datentabellen ist unter »Werkzeuge > 
+Erweiterte Bearbeitung > TouchUp-Leserichtungwerkzeug« vorzunehmen.
+
+Checkliste barrierefreie PDF - http://www.einfach-fuer-alle.de/download/pdf-checkliste.pdf
+Einfach für Alle ist eine Initiative der Aktion Mensch
+2
+
+03
+
+02
+
+
+Überschriften
+Im Navigationsfenster »Tags« muss der Aufbau und die Konsistenz der 
+Überschriftenstruktur geprüft werden. Durch rechten Mausklick auf einen Tag 
+kann ggfs. eine Rollenzuweisung vorgenommen werden.
+
+Absätze, Listen
+Die Dokumentstruktur sollte im Navigationsfenster »Tags« auf semantische 
+Korrektheit geprüft werden.
+
+Links
+Im Navigationsfenster »Tags« muss geprüft werden, ob Links korrekte Tags 
+mit untergeordnetem Text und OBJR-Objekt besitzen.
+
+Lesezeichen
+Im Navigationsfenster »Lesezeichen« muss geprüft werden, ob eine sinn-
+volle Navigationshilfe vorhanden ist.
+
+Feinschliff in Adobe Acrobat 7
+Weitere Anforderungen
+
+Tab-Reihenfolge
+Dokumente mit Links, Anmerkungen und Formularen sollten für die Tab-
+Reihenfolge im Regelfall »Dokumentstruktur« (im Navigationsfenster 
+»Seiten« alles markieren > Optionen > Seiteneigenschaften > Tab-
+Reihenfolge) aufweisen.
+
+Hauptsprache
+Unter »Datei > Dokumenteigenschaften > Erweitert > Leseoptionen > Spra-
+che« muss die Hauptsprache des Dokuments, z.B. »Deutsch«, angegeben 
+werden. Sprachwechsel können im Navigationsfenster »Tags« durch rechten 
+Mausklick auf ein Tag (»Eigenschaften > Tag«) eingestellt werden.
+
+Zeichencodierung
+Unter »Erweitert > Ausgabehilfe > Vollständige Prüfung« muss geprüft wer-
+den, ob der verwendete Zeichensatz auch in Sprachausgaben nutzbar ist.
+
+Vollständige Prüfung
+Die vollständige Prüfung darf keine weiteren Fehler aufweisen.
+
+PDF-Optimierung
+Die Speichernutzung von Dokumenten sollte nach dem Taggen geprüft und 
+ggfs. optimiert werden (Menü »Erweitert > PDF-Optimierung«).
+
+Literatur
+BIK - Angemessene Formate (Prüfanleitung)
+http://www.bitvtest.de/index.php?a=di&iid=1108&s=n
+
+Clark, Joe: »Fakten und Meinungen zur Barrierefreiheit von PDF«
+http://www.einfach-fuer-alle.de/artikel/pdf-fakten-meinungen/
+
+Erle, Markus / Hellbusch, Jan Eric: »PDF und Barrierefreiheit«
+http://www.barrierefreies-webdesign.de/knowhow/pdf/
+
+Hellbusch, Jan Eric: »BIK und Adobe unter einer Decke? PDF bleibt schwer zu fassen«
+http://www.barrierekompass.de/weblog/index.php?itemid=519
+
+Hellbusch, Jan Eric: »Gestaltung barrierefreier PDF-Dokumente«
+http://www.bit-informationsdesign.de/iwp-8-2005/IWP-8-2005-Hellbusch.pdf
+
+Nadig, Oliver: »Wie sich blinde Computernutzer PDF-Dokumente zugänglich machen«
+http://www.barrierefreies-webdesign.de/knowhow/pdf-screenreader/
+
+Zugang für Alle: »Barrierefreie PDF-Dokumente mit Adobe Acrobat 7.0«
+http://www.zugang-fuer-alle.ch/download/BRO_HowTo_PDFs_Barrierefrei_DE_2005_09_PW.pdf
+
+Checkliste barrierefreie PDF - http://www.einfach-fuer-alle.de/download/pdf-checkliste.pdf
+Einfach für Alle ist eine Initiative der Aktion Mensch
+3
+
+04
+
+
